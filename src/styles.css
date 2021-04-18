@@ -6,10 +6,12 @@
 
 .hill-chart-light .chart-hill-main-curve {
   stroke: #6d6d6d;
+  max-width: 500px;
 }
 
 .hill-chart-dark .chart-hill-main-curve {
   stroke: #7d7d7d;
+  max-width: 500px;
 }
 
 .hill-chart-circle {

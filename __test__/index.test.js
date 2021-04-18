@@ -109,8 +109,8 @@ describe('hillchart@init', () => {
 
   it('renders the svg and center the chart according to margins', () => {
     setupHillChart();
-    expect(svg.getAttribute('height')).toEqual(config.height.toString());
-    expect(svg.getAttribute('width')).toEqual(config.width.toString());
+    expect(svg.getAttribute('height')).toEqual('auto');
+    expect(svg.getAttribute('width')).toEqual('100%');
     expect(svg.querySelector('g').getAttribute('transform')).toEqual(
       `translate(${config.margin.left}, ${config.margin.top})`
     );
