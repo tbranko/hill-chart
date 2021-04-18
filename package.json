@@ -1,7 +1,7 @@
 {
   "name": "awesome-hill-chart",
   "description": "Hill Chart with customizations",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/hill-chart.cjs.js",
   "module": "dist/hill-chart.esm.js",
   "style": "dist/styles.css",
