@@ -63,11 +63,15 @@ export default class HillChart extends EventEmitter {
 
     this.svg = select(target)
       .attr('class', this.colorScheme)
-      .attr('width', width)
-      .attr('height', height)
+      .attr('width', '100%')
+      .attr('height', 'auto')
       .attr(
         'style',
         `stroke-width: 0; background-color: ${this.backgroundColor};`
+      )
+      .attr(
+        'viewBox',
+        '0 0 500 220'
       )
       .append('g')
       .attr('transform', `translate(${margin.left}, ${margin.top})`);
